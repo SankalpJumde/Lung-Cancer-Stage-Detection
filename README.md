@@ -107,12 +107,10 @@ python app.py
 
 ## 📚 References
 
-1. Artificial Intelligence in lung cancer screening: Detection, classification, prediction, and prognosis ![image](https://github.com/user-attachments/assets/d7aa3f10-05fb-4e33-8d18-5928bc78267c)
-
-2. Advancements in Early Detection of Lung Cancer in Public Health: A Comprehensive Study Utilizing Machine Learning Algorithms and Predictive Models ![image](https://github.com/user-attachments/assets/d8a3e942-9c4d-46cd-8070-ab34a9819c14)
-
-3. Deep learning for lungs cancer detection: a review. ![image](https://github.com/user-attachments/assets/c62887f5-fa01-462a-bfa1-99e69292272a)
-
+1. [Artificial Intelligence in lung cancer screening: Detection, classification, prediction, and prognosis](https://www.researchgate.net/publication/379642910_Artificial_intelligence_in_lung_cancer_screening_Detection_classification_prediction_and_prognosis)  
+2. [Deep learning for lungs cancer detection: a review](https://link.springer.com/article/10.1007/s10462-024-10807-1#:~:text=2020)
+3. [Comparing CNN-based and transformer-based models for identifying lung cancer: which is more effective?](https://www.researchgate.net/publication/376681092_Comparing_CNN-based_and_transformer-based_models_for_identifying_lung_cancer_which_is_more_effective)  
+4. [Advancements in Early Detection of Lung Cancer in Public Health: A Comprehensive Study Utilizing Machine Learning Algorithms and Predictive Models](https://www.researchgate.net/publication/377559452_Advancements_in_Early_Detection_of_Lung_Cancer_in_Public_Health_A_Comprehensive_Study_Utilizing_Machine_Learning_Algorithms_and_Predictive_Models)
 ---
 
 ## 🤝 Acknowledgements
