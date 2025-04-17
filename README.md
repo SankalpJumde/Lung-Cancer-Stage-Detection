@@ -40,7 +40,7 @@ Whether for research, diagnostics, or real-world deployment, this system is desi
 
 Used a categorized dataset of lung CT scans with labeled stages.
 
-📦 *(https://www.kaggle.com/datasets/adityamahimkar/iqothnccd-lung-cancer-dataset)*
+📦 *[Click Here](https://www.kaggle.com/datasets/adityamahimkar/iqothnccd-lung-cancer-dataset)*
 
 ---
 
