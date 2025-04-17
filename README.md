@@ -46,10 +46,7 @@ Used a categorized dataset of lung CT scans with labeled stages.
 
 ## 📷 Sample UI Output
 
-```
 ![image](https://github.com/user-attachments/assets/30727aff-a9b8-45e0-a253-6b1e53ab01bc)
-
-```
 
 ---
 
