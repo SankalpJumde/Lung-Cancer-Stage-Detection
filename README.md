@@ -47,9 +47,8 @@ Used a categorized dataset of lung CT scans with labeled stages.
 ## 📷 Sample UI Output
 
 ```
-👤 Name: Anjali Sharma  
-🫁 Prediction: Stage II – Benign  
-📸 CT Image: [Displayed in result panel]
+![image](https://github.com/user-attachments/assets/30727aff-a9b8-45e0-a253-6b1e53ab01bc)
+
 ```
 
 ---
@@ -128,7 +127,7 @@ Special thanks to open-source communities, medical researchers, and everyone hel
 
 **Sankalp Jumde**  
 🎓 B.Tech AI, Class of 2026  
-🔗 [https://www.linkedin.com/in/sankalp-jumde/] | [[GitHub](https://github.com/SankalpJumde)] | [sankalpkrishna1103@gmail.com]
+🔗 [[LikendIn](https://www.linkedin.com/in/sankalp-jumde/)] | [[GitHub](https://github.com/SankalpJumde)] | [[Mail](sankalpkrishna1103@gmail.com)]
 
 ---
 
