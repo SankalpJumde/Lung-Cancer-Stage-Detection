@@ -107,10 +107,11 @@ python app.py
 
 ## 📚 References
 
-1. [Add your research paper here]  
-2. https://www.researchgate.net/publication/377559452_Advancements_in_Early_Detection_of_Lung_Cancer_in_Public_Health_A_Comprehensive_Study_Utilizing_Machine_Learning_Algorithms_and_Predictive_Models ![image](https://github.com/user-attachments/assets/d8a3e942-9c4d-46cd-8070-ab34a9819c14)
+1. Artificial Intelligence in lung cancer screening: Detection, classification, prediction, and prognosis ![image](https://github.com/user-attachments/assets/d7aa3f10-05fb-4e33-8d18-5928bc78267c)
 
-3. [CNN-based cancer detection papers]
+2. Advancements in Early Detection of Lung Cancer in Public Health: A Comprehensive Study Utilizing Machine Learning Algorithms and Predictive Models ![image](https://github.com/user-attachments/assets/d8a3e942-9c4d-46cd-8070-ab34a9819c14)
+
+3. Deep learning for lungs cancer detection: a review. ![image](https://github.com/user-attachments/assets/c62887f5-fa01-462a-bfa1-99e69292272a)
 
 ---
 
