@@ -108,7 +108,8 @@ python app.py
 ## 📚 References
 
 1. [Add your research paper here]  
-2. [Medical image deep learning studies]  
+2. https://www.researchgate.net/publication/377559452_Advancements_in_Early_Detection_of_Lung_Cancer_in_Public_Health_A_Comprehensive_Study_Utilizing_Machine_Learning_Algorithms_and_Predictive_Models ![image](https://github.com/user-attachments/assets/d8a3e942-9c4d-46cd-8070-ab34a9819c14)
+
 3. [CNN-based cancer detection papers]
 
 ---
