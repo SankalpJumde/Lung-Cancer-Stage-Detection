@@ -1,0 +1,117 @@
+/* Background and Layout */
+body {
+    background-image: url("lung_cancer_bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Container */
+.container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Form Group & Labels */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 6px;
+}
+
+/* Gender Radio Buttons */
+.gender-options {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.gender-options label {
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+/* Submit and Button Styling */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* General Button and Anchor Styling */
+button,
+a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+/* Special Styling for Result Page Button */
+a#resultBtn {
+    background-color: #28a745;
+}
+
+a#resultBtn:hover {
+    background-color: #218838;
+}
+
+/* Responsive CT Scan Image */
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+}
