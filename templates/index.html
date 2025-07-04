@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lung Cancer Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .form-group.small-input input[type="text"],
+        .form-group.small-input input[type="number"] {
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .form-group.center-file {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        /* Hide default file input */
+        .center-file input[type="file"] {
+            display: none;
+        }
+
+        /* Custom file label as button */
+        .custom-file-label {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* File name preview */
+        .file-name {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🫁 Lung Cancer Detector</h2>
+        <p>📋 Upload a CT scan and enter patient details to get a prediction.</p>
+        <hr>
+
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <!-- Name -->
+            <div class="form-group small-input">
+                <label for="name">👤 Patient Name:</label>
+                <input type="text" name="name" required>
+            </div>
+
+            <!-- Age -->
+            <div class="form-group small-input">
+                <label for="age">🎂 Age:</label>
+                <input type="number" name="age" required>
+            </div>
+
+            <!-- Gender -->
+            <div class="form-group">
+                <label for="gender"> Gender:</label>
+                <div class="gender-options">
+                    <label><input type="radio" name="gender" value="Male" required> Male</label>
+                    <label><input type="radio" name="gender" value="Female"> Female</label>
+                    <label><input type="radio" name="gender" value="Other"> Other</label>
+                </div>
+            </div>
+
+            <!-- CT Scan Upload -->
+            <div class="form-group center-file">
+                <label for="image">CT Scan Image:</label><br>
+                <label class="custom-file-label" for="image">Choose File</label>
+                <input type="file" name="image" id="image" accept="image/*" required onchange="updateFileName(this)">
+                <span class="file-name" id="file-name">No file chosen</span>
+            </div>
+
+            <!-- Submit -->
+            <input type="submit" value="Analyze">
+        </form>
+    </div>
+
+    <script>
+        function updateFileName(input) {
+            const fileName = input.files.length > 0 ? input.files[0].name : "No file chosen";
+            document.getElementById("file-name").textContent = fileName;
+        }
+    </script>
+</body>
+</html>

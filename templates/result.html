@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>🧬 Prediction Result 📋</h2>
+        <p><strong>Patient Name:</strong> {{ name }}</p>
+        <p><strong>Age:</strong> {{ age }}</p>
+        <p><strong>Gender:</strong> {{ gender }}</p>
+        <hr>
+        <h3>🩻 Uploaded CT Scan:</h3>
+        <img src="{{ image_path }}" alt="CT Scan" style="width: 100%; max-width: 300px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+        <hr>
+        <h3>🩺 Predicted Stage: :</h3>
+        <p><strong style="font-size: 20px;">{{ prediction }}</strong></p>
+        
+        <!-- FIXED button container -->
+        <div style="width: 100%;">
+            <a href="/" id="resultBtn">🔁 Analyze Another</a>
+        </div>
+    </div>
+</body>
+</html>
